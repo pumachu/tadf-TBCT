@@ -1,0 +1,121 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ ATL ]
+  [ atoms ]
+    BZa  BZ   0.371583   5  
+    CB1  CB   -0.153872  5
+    C2    C   -0.066396  5
+    C3    C   -0.085668  5
+    C4    C   -0.085604  5
+    C5    C   -0.073481  5
+    CB6  CB   -0.164971  5
+    BZb  BZ   0.467604   5
+    CM7  CM   -0.639609  5
+    CB8  CB   -0.166085  5
+    C9    C   -0.069787  5
+    Ca    C   -0.085999  5
+    Cb    C   -0.081974  5
+    Cc    C   -0.065012  5 
+    CBd  CB   -0.151891  5 
+    H1    H   0.088400   5 
+    H2    H   0.097646   5 
+    H3    H   0.097814   5 
+    H4    H   0.090114   5 
+    HM5   HM  0.153925   5 
+    HM6   HM  0.142238   5 
+    HM7   HM  0.152674   5 
+    H8    H   0.088789   5 
+    H9    H   0.097798   5 
+    Ha    H   0.097551   5 
+    Hb    H   0.090196   5 
+       
+      
+  [ bonds ]
+    BZa  CB1    ; central ring
+    CB1  CB6
+    CB6  BZb
+    BZb  CB8
+    CB8  CBd
+    CBd  BZa
+    BZb  CM7    ; link to methyl
+             
+    CB8  C9     ; 2nd ring
+    C9   Ca
+    Ca   Cb
+    Cb   Cc
+    Cc   CBd
+;   CB8  CBd
+    C9   H8
+    Ca   H9
+    Cb   Ha 
+    Cc   Hb
+         
+    CB1  C2     ; 3rd ring
+    C2   C3
+    C3   C4
+    C4   C5
+    C5   CB6
+;   CB6  CB1
+    C2   H1
+    C3   H2
+    C4   H3
+    C5   H4
+
+    CM7  HM5    ; methyl
+    CM7  HM6
+    CM7  HM7
+
+        
+  [ dihedrals ]
+    CB6  BZb  CM7  HM5    ; 81 82 83 94  methyl
+    BZb  CB8  CBd  Cc     ; 75 76 81 80  planaraize
+    BZa  CBd  CB8  C9     ; 82 81 76 77  planaraize
+    BZa  CB1  CB6  C5     ; 82 84 89 88  planaraize
+    BZb  CB6  CB1  C2     ; 75 89 84 85  planaraize
+
+  [ impropers ]
+    BZa  CB1  CB6  BZb   ; central ring
+    CB1  CB6  BZb  CB8
+    CB6  BZb  CB8  CBd
+    BZb  CB8  CBd  BZa
+    CB8  CBd  BZa  CB1
+    CBd  BZa  CB1  CB6
+    BZa  CBd  CB1 -CZf   ; link to BML
+    BZb  CB6  CB8  CM7   ; link to methyl
+
+    CB8  C9   Ca   Cb   ; 2nd ring
+    C9   Ca   Cb   Cc
+    Ca   Cb   Cc   CBd
+    Cb   Cc   CBd  CB8
+    Cc   CBd  CB8  C9
+    CBd  CB8  C9   Ca
+    CB8  C9   CBd  BZb
+    C9   CB8  Ca   H8
+    Ca   C9   Cb   H9
+    Cb   Ca   Cc   Ha
+    Cc   Cb   CBd  Hb
+    CBd  CB8  Cc   BZa
+
+    CB1  C2   C3   C4   ; third ring
+    C2   C3   C4   C5
+    C3   C4   C5   CB6
+    C4   C5   CB6  CB1
+    C5   CB6  CB1  C2
+    CB6  CB1  C2   C3
+    CB1  C2   CB6  BZa
+    C2   CB1  C3   H1
+    C3   C2   C4   H2
+    C4   C3   C5   H3
+    C5   C4   CB6  H4
+    CB6  CB1  C5   BZb
+
+    [ exclusions ]
+      HM5  H4
+      HM5  H8
+      HM6  H4
+      HM6  H8
+      HM7  H4
+      HM7  H8
+

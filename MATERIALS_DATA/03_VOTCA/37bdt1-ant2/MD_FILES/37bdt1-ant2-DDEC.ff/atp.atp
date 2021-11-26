@@ -1,0 +1,14 @@
+  BZ      10.81100
+  C       12.01100
+  H        1.00800
+  ST      32.06000 ; S in thiophene ring   opls_800 from LigParGen
+  CZ      12.01100 ;
+  CZD      12.01100 ; same as CZ, for differntiate improepr of  CZ    CSB   CP    CZ / CZ    CSB   CP    CZD
+  CZM     12.01100 ; Carbon on benzene linking to CM
+  CS      12.01100 ; Carbon next to S in thiophene ring
+  CSB     12.01100 ; Carbon next to S in thiophene ring and fused with benzene
+  CP      12.01100 ; Other carbon in pyrrole ring
+  CB      12.01100 ; bonding carbon to boron
+  CM      12.01100 ; carbon in methyl group
+  HM       1.00800 ; hydrogen in methyl group
+

@@ -1,0 +1,87 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ BDT ]
+  [ atoms ]
+    ST1  ST   0.070185   1  
+    CS1  CS   -0.170248  1
+    CP2  CP   -0.166425  1
+    CP3  CP   0.022211   1
+    CZ4  CZ   0.006723   1
+    CS5  CSB  -0.050963  1
+    ST2  ST   0.070185   1
+    CS6  CS   -0.170248  1
+    CP7  CP   -0.166425  1
+    CP8  CP   0.022211   1
+    CZ9  CZD  0.006723   1
+    CSa  CSB  -0.050963  1
+    H1    H   0.137854   1
+    H2    H   0.129741   1
+    H3    H   0.137854   1
+    H4    H   0.129741   1
+      
+  [ bonds ]
+    ST1  CS1    ; first ring
+    CS1  CP2
+    CP2  CP3
+    CP3  CSa
+    CSa  ST1
+    CS1  H1
+    CP2  H2
+         
+    CP3  CZ4    ; central ring
+    CZ4  CS5
+    CS5  CP8
+    CP8  CZ9
+    CZ9  CSa
+;   CSa  CP3
+    CZ4 +CZa    ; link to BMR
+    CZ9 +CZe    ; link to BML
+         
+    CS5  ST2    ; third ring
+    ST2  CS6
+    CS6  CP7
+    CP7  CP8
+;   CP8  CS5
+    CS6  H3
+    CP7  H4   
+        
+  [ dihedrals ]
+    CP3  CZ4 +CZa +CZc    ;  4  5 17 18  ; link to BMR
+    CP8  CZ9 +CZe +CZg    ; 10 11 59 60  ; link to BML
+    CZ4  CS5  CP8  CP7    ;  5  6 10  9  ; planarize
+    CZ9  CP8  CS5  ST2    ; 11 10  6  7  ; planarize 
+    CZ4  CP3  CSa  ST1    ;  5  4 12  1  ; planarize
+    CZ9  CSa  CP3  CP2    ; 11 12  4  3  ; planarize          
+
+  [ impropers ]
+    ST1  CS1  CP2  CP3   ; first ring
+    CS1  CP2  CP3  CSa
+    CP2  CP3  CSa  ST1
+    CP3  CSa  ST1  CS1
+    CSa  ST1  CS1  CP2
+    CS1  ST1  CP2  H1
+    CP2  CS1  CP3  H2
+    CP3  CP2  CSa  CZ4
+    CSa  CP3  ST1  CZ9
+
+    CP3  CZ4  CS5  CP8   ; central ring
+    CZ4  CS5  CP8  CZ9
+    CS5  CP8  CZ9  CSa
+    CP8  CZ9  CSa  CP3
+    CZ9  CSa  CP3  CZ4
+    CSa  CP3  CZ4  CS5
+    CZ4  CP3  CS5 +CZa   ; link to BMR
+    CZ9  CP8  CSa +CZe   ; link to BML 
+
+    CS5  ST2  CS6  CP7   ; third ring
+    ST2  CS6  CP7  CP8
+    CS6  CP7  CP8  CS5
+    CP7  CP8  CS5  ST2
+    CP8  CS5  ST2  CS6
+    CS6  ST2  CP7  H3
+    CP7  CS6  CP8  H4 
+    CP8  CP7  CS5  CZ9
+    CS5  CP8  ST2  CZ4
+      

@@ -1,0 +1,118 @@
+<topology>
+	<molecules>
+		<molecule>
+			<name>37bdt1-ant2</name>
+			<mdname>37bdt1-ant2</mdname>
+			<segments>
+				<segment>
+					<name>37bdt1-ant2</name>
+					<qmcoords>QC_FILES/system.xyz</qmcoords>
+					<orbitals>QC_FILES/your_file_with.fort7</orbitals>
+					<basisset>INDO</basisset>
+					<torbital_h>number_of_electrons,150</torbital_h>
+					<U_cC_nN_h>0.0000</U_cC_nN_h>
+					<U_nC_nN_h>0.0000</U_nC_nN_h>
+					<U_cN_cC_h>0.0000</U_cN_cC_h>
+					<torbital_e>number_of_electrons+1,151</torbital_e>
+					<U_cC_nN_e>0.0000</U_cC_nN_e>
+					<U_nC_nN_e>0.0000</U_nC_nN_e>
+					<U_cN_cC_e>0.0000</U_cN_cC_e>
+					<multipoles_n>MP_FILES/n.mps</multipoles_n>
+					<multipoles_h>MP_FILES/h.mps</multipoles_h>
+					<multipoles_e>MP_FILES/e.mps</multipoles_e>
+					<map2md>0</map2md>
+					<fragments>
+						<fragment>
+							<name>BDT_1</name>
+							<mdatoms>  1:BDT:ST1    1:BDT:CS1    1:BDT:CP2    1:BDT:CP3    1:BDT:CZ4    1:BDT:CS5    1:BDT:ST2    1:BDT:CS6    1:BDT:CP7    1:BDT:CP8    1:BDT:CZ9    1:BDT:CSa     1:BDT:H1     1:BDT:H2     1:BDT:H3     1:BDT:H4  </mdatoms>
+							<qmatoms>     1:S          2:C          3:C          4:C          5:C          6:C          7:S          8:C          9:C         10:C         11:C         12:C         13:H         14:H         15:H         16:H     </qmatoms>
+							<mpoles>      1:S          2:C          3:C          4:C          5:C          6:C          7:S          8:C          9:C         10:C         11:C         12:C         13:H         14:H         15:H         16:H     </mpoles>
+							<weights>      32           12           12           12           12           12           32           12           12           12           12           12           1            1            1            1      </weights>
+							<localframe>  2    5    11  </localframe>
+						</fragment>
+						<fragment>
+							<name>BMR_2</name>
+							<mdatoms>  2:BMR:CZa    2:BMR:CZc    2:BMR:C3    2:BMR:CZd    2:BMR:C6    2:BMR:CZb    2:BMR:H4    2:BMR:H8  </mdatoms>
+							<qmatoms>    17:C         18:C         20:C         21:C         23:C         24:C        28:H         32:H     </qmatoms>
+							<mpoles>     17:C         18:C         20:C         21:C         23:C         24:C        28:H         32:H     </mpoles>
+							<weights>      12           12           12           12           12           12           1            1     </weights>
+							<localframe>  17   18   24  </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>MET_1</name>
+                                                        <mdatoms>  2:BMR:CM2     2:BMR:HM1    2:BMR:HM2    2:BMR:HM3    </mdatoms>
+                                                        <qmatoms>    19:C          25:H         26:H         27:H        </qmatoms>
+                                                        <mpoles>     19:C          25:H         26:H         27:H        </mpoles>
+                                                        <weights>      12             1            1            1   </weights>
+                                                        <localframe>  19   25   26 </localframe>
+						</fragment>	
+                                                <fragment>
+                                                        <name>MET_2</name>
+                                                        <mdatoms>  2:BMR:CM5    2:BMR:HM5    2:BMR:HM6    2:BMR:HM7  </mdatoms>
+                                                        <qmatoms>   22:C             29:H         30:H         31:H   </qmatoms>
+                                                        <mpoles>    22:C             29:H         30:H         31:H   </mpoles>
+                                                        <weights>     12                1            1            1   </weights>
+                                                        <localframe>  22   29   30 </localframe>
+                                                </fragment>
+						<fragment>
+							<name>ATR_3</name>
+							<mdatoms>  3:ATR:BZa    3:ATR:CB1     3:ATR:C2     3:ATR:C3     3:ATR:C4     3:ATR:C5    3:ATR:CB6    3:ATR:BZb   3:ATR:CB8     3:ATR:C9     3:ATR:Ca     3:ATR:Cb     3:ATR:Cc    3:ATR:CBd     3:ATR:H1     3:ATR:H2     3:ATR:H3     3:ATR:H4     3:ATR:H8     3:ATR:H9     3:ATR:Ha     3:ATR:Hb  </mdatoms>
+							<qmatoms>    33:B         34:C         35:C         36:C         37:C         38:C         39:C         40:B         42:C         43:C         44:C         45:C         46:C         47:C         48:H         49:H         50:H         51:H        55:H         56:H         57:H         58:H     </qmatoms>
+							<mpoles>     33:B         34:C         35:C         36:C         37:C         38:C         39:C         40:B         42:C         43:C         44:C         45:C         46:C         47:C         48:H         49:H         50:H         51:H        55:H         56:H         57:H         58:H     </mpoles>
+							<weights>      10           12           12           12           12           12           12           10           12           12           12           12           12           12           1            1            1            1            1            1            1            1      </weights>
+							<localframe>  33   40   44 </localframe>
+						</fragment>
+						<fragment>
+							<name>BML_4</name>
+							<mdatoms>  4:BML:CZe    4:BML:CZg    4:BML:C3    4:BML:CZh    4:BML:C6    4:BML:CZf    4:BML:H4    4:BML:H8  </mdatoms>
+							<qmatoms>    59:C         60:C         62:C         63:C         65:C         66:C        70:H       74:H     </qmatoms>
+							<mpoles>     59:C         60:C         62:C         63:C         65:C         66:C        70:H       74:H     </mpoles>
+							<weights>      12           12           12           12           12           12           1          1     </weights>
+							<localframe>  59   60    66 </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>MET_3</name>
+                                                        <mdatoms>  4:BML:CM2     4:BML:HM1    4:BML:HM2    4:BML:HM3  </mdatoms>
+                                                        <qmatoms>    61:C         67:H         68:H         69:H      </qmatoms>
+                                                        <mpoles>     61:C         67:H         68:H         69:H      </mpoles>
+                                                        <weights>      12            1            1            1      </weights>
+                                                        <localframe>  61   67   68 </localframe>
+                                                </fragment>
+                                                <fragment>
+                                                        <name>MET_4</name>
+                                                        <mdatoms>  4:BML:CM5     4:BML:HM5    4:BML:HM6    4:BML:HM7  </mdatoms>
+                                                        <qmatoms>    64:C         71:H         72:H         73:H      </qmatoms>
+                                                        <mpoles>     64:C         71:H         72:H         73:H      </mpoles>
+                                                        <weights>      12            1            1            1      </weights>
+                                                        <localframe>  64   71   72 </localframe>
+                                                </fragment>
+						<fragment>
+							<name>ATL_5</name>
+							<mdatoms>  5:ATL:BZa    5:ATL:CB1     5:ATL:C2     5:ATL:C3     5:ATL:C4     5:ATL:C5    5:ATL:CB6    5:ATL:BZb    5:ATL:CB8     5:ATL:C9     5:ATL:Ca     5:ATL:Cb     5:ATL:Cc    5:ATL:CBd     5:ATL:H1     5:ATL:H2     5:ATL:H3     5:ATL:H4    5:ATL:H8     5:ATL:H9     5:ATL:Ha     5:ATL:Hb  </mdatoms>
+							<qmatoms>    75:B         76:C         77:C         78:C         79:C         80:C         81:C         82:B         84:C         85:C         86:C         87:C         88:C         89:C         90:H         91:H         92:H         93:H        97:H         98:H         99:H         100:H    </qmatoms>
+							<mpoles>     75:B         76:C         77:C         78:C         79:C         80:C         81:C         82:B         84:C         85:C         86:C         87:C         88:C         89:C         90:H         91:H         92:H         93:H        97:H         98:H         99:H         100:H    </mpoles>
+							<weights>      10           12           12           12           12           12           12           10           12           12           12           12           12           12           1            1            1            1            1            1            1            1      </weights>
+							<localframe>  75   79   82 </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>MET_5</name>
+                                                        <mdatoms>  5:ATL:CM7   5:ATL:HM5    5:ATL:HM6    5:ATL:HM7  </mdatoms>
+                                                        <qmatoms>     83:C          94:H         95:H         96:H  </qmatoms>
+                                                        <mpoles>      83:C          94:H         95:H         96:H   </mpoles>
+                                                        <weights>      12            1            1            1      </weights>
+                                                        <localframe>  83 94 95 </localframe>
+                                                </fragment>
+                                                <fragment>
+                                                        <name>MET_6</name>
+                                                        <mdatoms>  3:ATR:CM7   3:ATR:HM5    3:ATR:HM6    3:ATR:HM7 </mdatoms>
+                                                        <qmatoms>     41:C        52:H         53:H         54:H  </qmatoms>
+                                                        <mpoles>      41:C        52:H         53:H         54:H   </mpoles>
+                                                        <weights>      12            1            1            1      </weights>
+                                                        <localframe>  41  52  53 </localframe>
+                                                </fragment>
+					</fragments>
+				</segment>
+			</segments>
+		</molecule>
+	</molecules>
+</topology>

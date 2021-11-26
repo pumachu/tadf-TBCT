@@ -1,0 +1,85 @@
+<options>
+  <!--Job file for electrostatic configurations-->
+  <jobwriter>
+    <states>n e h</states>
+    <keys>mps.background mps.chrg</keys>
+    <cutoff>3.0</cutoff>
+    <single_id>10</single_id>
+  </jobwriter>
+  
+  <!--Generate induction state of the neutral background-->
+  <ewdbgpol>
+    <multipoles>system.xml</multipoles>
+    <control>
+       <mps_table>jobwriter.mps.background.tab</mps_table>
+       <pdb_check>1</pdb_check>
+    </control>
+    <coulombmethod>
+      <method>ewald</method>
+      <cutoff>6</cutoff>
+      <shape>cube</shape>
+      <dipole_corr>false</dipole_corr>
+      <dipole_corr_type>system</dipole_corr_type>
+      <dipole_corr_direction>xyz</dipole_corr_direction>
+    </coulombmethod>
+    <polarmethod>
+      <method>thole</method>
+      <induce>1</induce>
+      <cutoff>0</cutoff>
+    </polarmethod>
+    <convergence>
+      <energy>1e-05</energy>
+      <kfactor>100</kfactor>
+      <rfactor>6</rfactor>
+    </convergence>
+  </ewdbgpol>
+  
+  <!--Polarized EWALD 3D-->
+  <ewald>
+    <jobcontrol>
+      <job_file>/u/linku/work/Main_Project/VOTCA/37bdt1-ant2/DOS/jobwriter.mps.chrg.xml</job_file>
+    </jobcontrol>
+    <multipoles>
+      <mapping>system.xml</mapping>
+      <mps_table>jobwriter.mps.background.tab</mps_table>
+      <polar_bg>bgp_main.ptop</polar_bg>
+      <pdb_check>0</pdb_check>
+    </multipoles>
+    <coulombmethod>
+      <method>ewald</method>
+      <cutoff>6</cutoff>
+      <shape>cube</shape>
+      <save_nblist>false</save_nblist>
+    </coulombmethod>
+    <polarmethod>
+      <method>thole</method>
+      <induce>1</induce>
+      <cutoff>4</cutoff>
+      <tolerance>0.001</tolerance>
+      <radial_dielectric>4.</radial_dielectric>
+    </polarmethod>
+    <tasks>
+      <calculate_fields>true</calculate_fields>
+      <polarize_fg>true</polarize_fg>
+      <evaluate_energy>true</evaluate_energy>
+      <apply_radial>false</apply_radial>
+    </tasks>
+    <coarsegrain>
+      <cg_background>false</cg_background>
+      <cg_foreground>false</cg_foreground>
+      <cg_radius>3</cg_radius>
+      <cg_anisotropic>true</cg_anisotropic>
+    </coarsegrain>
+    <convergence>
+      <energy>1e-05</energy>
+      <kfactor>100</kfactor>
+      <rfactor>6</rfactor>
+    </convergence>
+  </ewald>
+
+  <!--Import site energies from output file of XQM/PEWALD calculation-->
+  <eimport>
+    <energies>Energy_HoleElectron.out</energies>
+  </eimport>
+
+</options>

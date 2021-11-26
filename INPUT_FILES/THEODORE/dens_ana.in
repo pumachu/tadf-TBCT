@@ -1,0 +1,11 @@
+rtype='cclib'
+rfile='log file name of GAUSSIAN TDDFT computations'
+at_lists=[[list atom index of fragment 1],[list atom index of fragment 2],...]
+Om_formula=2
+eh_pop=1
+comp_ntos=True
+comp_dntos=False
+jmol_orbitals=False
+molden_orbitals=True
+alphabeta=False
+prop_list=['Om', 'POS', 'PR', 'CT', 'COH', 'CTnt', 'PRNTO', 'Z_HE']

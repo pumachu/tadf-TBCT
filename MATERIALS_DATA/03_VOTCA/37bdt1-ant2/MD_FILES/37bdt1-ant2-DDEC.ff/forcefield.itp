@@ -1,0 +1,187 @@
+; 37bdt1-ant2
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+  1             3               yes              0.5     0.5
+
+[ atomtypes ]
+; name       mass      charge    ptype      sigma      eps
+  BZ      10.81100     0.000       A    3.58120e-01  2.77400e-01  ; taken from CzDBA, not DDEC
+  C       12.01100     0.000       A    3.51337e-01  2.59188e-01
+  H        1.00800     0.000       A    2.25652e-01  1.50473e-01
+  ST      32.06000     0.000       A    3.45311e-01  9.43051e-01
+  CS      12.01100     0.000       A    3.60084e-01  2.59188e-01
+  CSB     12.01100     0.000       A    3.55465e-01  2.59188e-01
+  CP      12.01100     0.000       A    3.52777e-01  2.59188e-01
+  CB      12.01100     0.000       A    3.56753e-01  2.59188e-01  
+  CZ      12.01100     0.000       A    3.47631e-01  2.59188e-01
+  CZD     12.01100     0.000       A    3.47631e-01  2.59188e-01
+  CZM     12.01100     0.000       A    3.47631e-01  2.59188e-01
+  CM      12.01100     0.000       A    3.64951e-01  2.59188e-01
+  HM       1.00800     0.000       A    2.25642e-01  1.50473e-01
+
+[ bondtypes ]
+; BDT core
+   ST    CS      1    0.17410    209200.0 ; 
+   ST    CSB     1    0.17410    209200.0 ;
+   CS    CP      1    0.13555    456892.8 ;
+   CP    CP      1    0.14445    392459.2 ;
+   CP    CSB     1    0.14202    392459.2 ;
+   CS    H       1    0.10800    307105.6 ;
+   CP    H       1    0.10800    307105.6 ;
+   CP    CZ      1    0.14000    392459.2 ;         
+   CP    CZD     1    0.14000    392459.2 ;
+   CZ    CSB     1    0.13933    392459.2 ;
+   CZD   CSB     1    0.13933    392459.2 ;
+
+; link BML/BMR BDT
+   CZ    CZ      1    0.14800    322168.0 ; 
+   CZD   CZ      1    0.14800    322168.0 ;
+  
+; BML/BMR
+   CZ    CZM     1    0.14000    392459.2 ;           
+   CZ    C       1    0.14000    392459.2 ;
+   CZM   C       1    0.14000    392459.2 ;
+   CZM   CM      1    0.15100    265265.6 ;
+   CM    HM      1    0.10900    284512.0 ;
+   
+; link BML/BMR ATL/ATR
+   CZ    BZ      1    0.15800    322168.0 ;
+
+; ATL/ATR
+   BZ    CB      1    0.15700    322168.0 ;
+   CB    CB      1    0.14200    392459.2 ;
+   CB    C       1    0.14000    392459.2 ;
+   BZ    CM      1    0.15800    322168.0 ;
+   C     C       1    0.14000    392459.2 ;
+   C     H       1    0.10800    307105.6 ;
+
+[ angletypes ]
+; BDT core
+   ST    CS    CP      1    113.60700    585.760 ;
+   CS    CP    CP      1    112.61000    585.769 ;
+   CSB   CP    CP      1    111.77000    585.769 ;
+   CP    CSB   ST      1    111.15700    585.760 ;
+   CZ    CSB   ST      1    111.15700    585.760 ;
+   CZD   CSB   ST      1    111.15700    585.760 ;
+   CSB   ST    CS      1     91.01400    619.232 ;
+   ST    CS     H      1    119.24600    292.880 ;
+   CP    CS     H      1    127.14600    292.880 ;
+   CS    CP     H      1    124.03800    292.880 ;
+   CP    CP     H      1    123.35200    292.880 ;
+   CP    CP    CZ      1    127.88200    527.184 ;
+   CP    CP    CZD     1    127.88200    527.184 ;
+   CP    CZ    CSB     1    116.47900    527.184 ;
+   CP    CZD   CSB     1    116.47900    527.184 ;
+   CZ    CSB   CP      1    123.26800    527.184 ;
+   CZD   CSB   CP      1    123.26800    527.184 ;
+   CSB   CP    CZ      1    123.26800    527.184 ;
+   CSB   CP    CZD     1    123.26800    527.184 ;
+ 
+
+; link BML/BMR BDT
+   CP    CZ    CZ      1    120.00000    527.184 ;
+   CP    CZD   CZ      1    120.00000    527.184 ;
+   CSB   CZ    CZ      1    120.00000    527.184 ;
+   CSB   CZD   CZ      1    120.00000    527.184 ;
+   CZ    CZ    CZM     1    120.00000    527.184 ;
+   CZD   CZ    CZM     1    120.00000    527.184 ;
+
+; BML/BMR
+   CZ    CZM   C       1    120.00000    527.184 ;
+   CM    CZM   C       1    120.00000    527.184 ;
+   CZM   CZ    CZM     1    120.00000    527.184 ;
+   CZM   C     CZ      1    120.00000    527.184 ;   
+   C     CZ    C       1    120.00000    527.184 ;
+   CZ    CZM   CM      1    120.00000    585.700 ;
+   CZM   C     H       1    120.00000    292.800 ;
+   CZ    C     H       1    120.00000    292.800 ;
+   CZM   CM    HM      1    109.50000    292.800 ;
+   HM    CM    HM      1    109.50000    292.800 ;
+
+   
+; link BML/BMR ATL/ATR
+   C     CZ    BZ      1    120.00000    527.184 ;
+   CZ    BZ    CB      1    120.00000    527.184 ;
+
+; ATL/ATR
+   BZ    CB    CB      1    120.00000    527.184 ;
+   CB    BZ    CB      1    120.00000    527.184 ;
+   CB    BZ    CM      1    120.00000    585.700 ;
+   BZ    CB    C       1    120.00000    527.184 ;
+   CB    C     C       1    120.00000    527.184 ;
+   CB    CB    C       1    120.00000    527.184 ;
+   C     C     C       1    120.00000    527.184 ;
+   BZ    CM    HM      1    109.50000    292.800 ;
+   CB    C     H       1    120.00000    292.800 ;
+   C     C     H       1    120.00000    292.800 ;
+
+[ dihedraltypes ]
+; proper
+   CP    CZ    CZ    CZM     3    -1.31176892	0.21195185	-12.59782511	-0.61610504	43.37377803	-19.20331942 
+   CP    CZD   CZ    CZM     3    -1.31176892	0.21195185	-12.59782511	-0.61610504	43.37377803	-19.20331942
+   C     CZ    BZ    CB      3    9.61228681	0.25788516	-31.64599253	-3.8410323	28.66839841	13.36059416
+   CZ    CZM   CM    HM      3    -0.72901302  2.67719648  0.04501523 -3.02383261 -0.05230868 -0.50708399
+   CB    BZ    CM    HM      9    1.77869627e+02  1.43824901e-01 6
+   CB    BZ    CM    HM      3     0.0  0.0  0.0  0.0  0.0  0.0
+
+   CZ    CSB   CP    CP      3    30.334  0.000  -30.334  0.000  0.000  0.000
+   CZD   CSB   CP    CP      3    30.334  0.000  -30.334  0.000  0.000  0.000
+   CZ    CP    CSB   ST      3    30.334  0.000  -30.334  0.000  0.000  0.000
+   CZD   CP    CSB   ST      3    30.334  0.000  -30.334  0.000  0.000  0.000
+   BZ    CB    CB    C       3    30.334  0.000  -30.334  0.000  0.000  0.000
+
+; improper
+; BDT core
+   ST    CS    CP    CP      2    0.00000    167.4000 ;            
+   CS    CP    CP    CSB     2    0.00000    167.4000 ;   
+   CP    CP    CSB   ST      2    0.00000    167.4000 ;   
+   CP    CSB   ST    CS      2    0.00000    167.4000 ;  
+   CSB   ST    CS    CP      2    0.00000    167.4000 ; 
+   CS    ST    CP    H       2    0.00000    167.4000 ;
+   CP    CS    CP    H       2    0.00000    167.4000 ;
+   CP    CP    CSB   CZD     2    0.00000    500.0000 ; connecting central and edge rings
+   CSB   CP    ST    CZ      2    0.00000    500.0000 ; connecting central and edge rings
+   CP    CP    CSB   CZ      2    0.00000    500.0000 ; connecting central and edge rings
+   CSB   CP    ST    CZD     2    0.00000    500.0000 ; connecting central and edge rings
+
+   
+   CP    CZ    CSB   CP      2    0.00000    167.4000 ;
+   CZ    CSB   CP    CZD     2    0.00000    167.4000 ;
+   CSB   CP    CZ    CSB     2    0.00000    167.4000 ;
+   CP    CZD   CSB   CP      2    0.00000    167.4000 ;
+   CSB   CP    CZD   CSB     2    0.00000    167.4000 ;
+
+; link BML/BMR BDT
+   CZ    CSB   CP    CZ      2    0.00000    500.0000 ;
+   CZ    CZM   CZM   CZ      2    0.00000    500.0000 ;
+   CZD   CSB   CP    CZ      2    0.00000    500.0000 ;
+   CZ    CZM   CZM   CZD     2    0.00000    500.0000 ;
+
+; BML/BMR
+   C     CZM   CZ    CZM     2    0.00000    167.4000 ;
+   CZ    CZM   C     CZ      2    0.00000    167.4000 ;
+   CZM   C     CZ    C       2    0.00000    167.4000 ;
+   CZM   CZ    C     CM      2    0.00000    500.0000 ;
+   C     CZM   CZ    H       2    0.00000    167.4000 ;
+   
+; link BML/BMR ATL/ATR
+   CZ    C     C     BZ      2    0.00000    500.0000 ;
+   BZ    CB    CB    CZ      2    0.00000    500.0000 ;
+
+; ATL/ATR
+   BZ    CB    CB    BZ      2    0.00000    167.4000 ;
+   CB    CB    BZ    CB      2    0.00000    167.4000 ;
+   CB    BZ    CB    CB      2    0.00000    167.4000 ;
+   BZ    CB    CB    CM      2    0.00000    500.0000 ;
+   CB    C     C     C       2    0.00000    167.4000 ;
+   C     C     C     C       2    0.00000    167.4000 ;
+   C     C     C     CB      2    0.00000    167.4000 ;    
+   C     C     CB    CB      2    0.00000    167.4000 ;
+   C     CB    CB    C       2    0.00000    167.4000 ;
+   CB    CB    C     C       2    0.00000    167.4000 ;
+   C     CB    C     H       2    0.00000    167.4000 ;
+   C     C     C     H       2    0.00000    167.4000 ;
+   C     C     CB    H       2    0.00000    167.4000 ;
+   CB    C     CB    BZ      2    0.00000    500.0000 ; connecting central and edge rings
+   CB    CB    C     BZ      2    0.00000    500.0000 ; connecting central and edge rings

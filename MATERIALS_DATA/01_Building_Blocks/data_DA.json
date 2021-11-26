@@ -1,0 +1,584 @@
+{
+    "ant1": {
+        "HOMO (eV)": -7.32,
+        "LUMO (eV)": -0.424,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 223.0
+    },
+    "ant2": {
+        "HOMO (eV)": -8.742,
+        "LUMO (eV)": -1.395,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 214.0
+    },
+    "ant3": {
+        "HOMO (eV)": -6.211,
+        "LUMO (eV)": 1.044,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 222.0
+    },
+    "ant4": {
+        "HOMO (eV)": -5.946000000000001,
+        "LUMO (eV)": 0.307,
+        "Dipole (Debye)": 0.001,
+        "Omega (1/Bohr)": 205.0
+    },
+    "ant5": {
+        "HOMO (eV)": -6.996,
+        "LUMO (eV)": 1.0190000000000001,
+        "Dipole (Debye)": 0.002,
+        "Omega (1/Bohr)": 246.0
+    },
+    "ant6": {
+        "HOMO (eV)": -7.334,
+        "LUMO (eV)": 0.154,
+        "Dipole (Debye)": 2.31,
+        "Omega (1/Bohr)": 211.0
+    },
+    "ant7": {
+        "HOMO (eV)": -8.686,
+        "LUMO (eV)": -1.536,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 232.0
+    },
+    "ant8": {
+        "HOMO (eV)": -10.035,
+        "LUMO (eV)": -2.178,
+        "Dipole (Debye)": 0.011000000000000001,
+        "Omega (1/Bohr)": 298.0
+    },
+    "ant9": {
+        "HOMO (eV)": -7.656000000000001,
+        "LUMO (eV)": -0.902,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 227.0
+    },
+    "ant10": {
+        "HOMO (eV)": -7.6610000000000005,
+        "LUMO (eV)": -1.2930000000000001,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 201.0
+    },
+    "ant11": {
+        "HOMO (eV)": -8.923,
+        "LUMO (eV)": -1.5719999999999998,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 254.0
+    },
+    "ant12": {
+        "HOMO (eV)": -7.778,
+        "LUMO (eV)": -0.7909999999999999,
+        "Dipole (Debye)": 0.001,
+        "Omega (1/Bohr)": 226.0
+    },
+    "ant13": {
+        "HOMO (eV)": -7.657,
+        "LUMO (eV)": -1.251,
+        "Dipole (Debye)": 0.001,
+        "Omega (1/Bohr)": 195.0
+    },
+    "ant14": {
+        "HOMO (eV)": -7.327999999999999,
+        "LUMO (eV)": 0.005,
+        "Dipole (Debye)": 0.004,
+        "Omega (1/Bohr)": 238.0
+    },
+    "ant15": {
+        "HOMO (eV)": -6.957999999999999,
+        "LUMO (eV)": 0.196,
+        "Dipole (Debye)": 0.435,
+        "Omega (1/Bohr)": 198.0
+    },
+    "ant16": {
+        "HOMO (eV)": -6.88,
+        "LUMO (eV)": 0.265,
+        "Dipole (Debye)": 0.27699999999999997,
+        "Omega (1/Bohr)": 197.0
+    },
+    "ant17": {
+        "HOMO (eV)": -8.037,
+        "LUMO (eV)": -1.232,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 229.0
+    },
+    "ant18": {
+        "HOMO (eV)": -9.242,
+        "LUMO (eV)": -2.1919999999999997,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 224.0
+    },
+    "ant19": {
+        "HOMO (eV)": -7.504,
+        "LUMO (eV)": 0.322,
+        "Dipole (Debye)": 0.055999999999999994,
+        "Omega (1/Bohr)": 228.0
+    },
+    "cbz1": {
+        "HOMO (eV)": -7.615,
+        "LUMO (eV)": 0.524,
+        "Dipole (Debye)": 1.6580000000000001,
+        "Omega (1/Bohr)": 231.0
+    },
+    "cbz2": {
+        "HOMO (eV)": -8.387,
+        "LUMO (eV)": -0.081,
+        "Dipole (Debye)": 2.524,
+        "Omega (1/Bohr)": 238.0
+    },
+    "cbz3": {
+        "HOMO (eV)": -7.835,
+        "LUMO (eV)": 0.34700000000000003,
+        "Dipole (Debye)": 1.032,
+        "Omega (1/Bohr)": 234.0
+    },
+    "cbz4": {
+        "HOMO (eV)": -7.812,
+        "LUMO (eV)": 0.032,
+        "Dipole (Debye)": 1.526,
+        "Omega (1/Bohr)": 217.0
+    },
+    "cbz5": {
+        "HOMO (eV)": -8.467,
+        "LUMO (eV)": -0.823,
+        "Dipole (Debye)": 7.135,
+        "Omega (1/Bohr)": 219.0
+    },
+    "cbz6": {
+        "HOMO (eV)": -8.23,
+        "LUMO (eV)": -0.221,
+        "Dipole (Debye)": 0.727,
+        "Omega (1/Bohr)": 242.0
+    },
+    "cbz7": {
+        "HOMO (eV)": -7.904,
+        "LUMO (eV)": 0.408,
+        "Dipole (Debye)": 0.9209999999999999,
+        "Omega (1/Bohr)": 232.0
+    },
+    "cbz8": {
+        "HOMO (eV)": -7.903,
+        "LUMO (eV)": 0.006999999999999999,
+        "Dipole (Debye)": 0.812,
+        "Omega (1/Bohr)": 216.0
+    },
+    "cbz9": {
+        "HOMO (eV)": -8.556000000000001,
+        "LUMO (eV)": -1.055,
+        "Dipole (Debye)": 0.41700000000000004,
+        "Omega (1/Bohr)": 216.0
+    },
+    "cbz10": {
+        "HOMO (eV)": -8.584,
+        "LUMO (eV)": 0.141,
+        "Dipole (Debye)": 4.744,
+        "Omega (1/Bohr)": 234.0
+    },
+    "cbz11": {
+        "HOMO (eV)": -7.71,
+        "LUMO (eV)": 0.128,
+        "Dipole (Debye)": 3.8280000000000003,
+        "Omega (1/Bohr)": 235.0
+    },
+    "cbz12": {
+        "HOMO (eV)": -7.729,
+        "LUMO (eV)": -0.023,
+        "Dipole (Debye)": 4.263999999999999,
+        "Omega (1/Bohr)": 219.0
+    },
+    "cbz13": {
+        "HOMO (eV)": -8.445,
+        "LUMO (eV)": -0.5429999999999999,
+        "Dipole (Debye)": 8.39,
+        "Omega (1/Bohr)": 215.0
+    },
+    "cbz14": {
+        "HOMO (eV)": -8.244,
+        "LUMO (eV)": -0.053,
+        "Dipole (Debye)": 5.624,
+        "Omega (1/Bohr)": 236.0
+    },
+    "cbz15": {
+        "HOMO (eV)": -7.829,
+        "LUMO (eV)": 0.486,
+        "Dipole (Debye)": 4.1339999999999995,
+        "Omega (1/Bohr)": 236.0
+    },
+    "cbz16": {
+        "HOMO (eV)": -7.888,
+        "LUMO (eV)": -0.469,
+        "Dipole (Debye)": 1.153,
+        "Omega (1/Bohr)": 205.0
+    },
+    "cbz17": {
+        "HOMO (eV)": -7.9479999999999995,
+        "LUMO (eV)": -0.426,
+        "Dipole (Debye)": 3.0980000000000003,
+        "Omega (1/Bohr)": 204.0
+    },
+    "cbz18": {
+        "HOMO (eV)": -7.987,
+        "LUMO (eV)": -0.976,
+        "Dipole (Debye)": 2.182,
+        "Omega (1/Bohr)": 187.0
+    },
+    "17bdt1": {
+        "HOMO (eV)": -7.49,
+        "LUMO (eV)": 0.37,
+        "Dipole (Debye)": 1.368,
+        "Omega (1/Bohr)": 232.0
+    },
+    "17bdt2": {
+        "HOMO (eV)": -8.009,
+        "LUMO (eV)": -0.052000000000000005,
+        "Dipole (Debye)": 0.7020000000000001,
+        "Omega (1/Bohr)": 239.0
+    },
+    "17bdt3": {
+        "HOMO (eV)": -7.968,
+        "LUMO (eV)": -0.004,
+        "Dipole (Debye)": 3.228,
+        "Omega (1/Bohr)": 238.0
+    },
+    "17bdt4": {
+        "HOMO (eV)": -7.942,
+        "LUMO (eV)": 0.609,
+        "Dipole (Debye)": 1.296,
+        "Omega (1/Bohr)": 249.0
+    },
+    "17bdt5": {
+        "HOMO (eV)": -6.851,
+        "LUMO (eV)": 0.971,
+        "Dipole (Debye)": 2.952,
+        "Omega (1/Bohr)": 238.0
+    },
+    "17bdt6": {
+        "HOMO (eV)": -8.673,
+        "LUMO (eV)": -1.766,
+        "Dipole (Debye)": 5.822,
+        "Omega (1/Bohr)": 236.0
+    },
+    "17bdt7": {
+        "HOMO (eV)": -8.222000000000001,
+        "LUMO (eV)": -0.442,
+        "Dipole (Debye)": 0.998,
+        "Omega (1/Bohr)": 243.0
+    },
+    "17bdt8": {
+        "HOMO (eV)": -7.724,
+        "LUMO (eV)": 0.01,
+        "Dipole (Debye)": 0.895,
+        "Omega (1/Bohr)": 214.0
+    },
+    "17bdt9": {
+        "HOMO (eV)": -8.322000000000001,
+        "LUMO (eV)": -0.011000000000000001,
+        "Dipole (Debye)": 2.471,
+        "Omega (1/Bohr)": 238.0
+    },
+    "17bdt10": {
+        "HOMO (eV)": -8.398,
+        "LUMO (eV)": 0.114,
+        "Dipole (Debye)": 0.872,
+        "Omega (1/Bohr)": 245.0
+    },
+    "17bdt11": {
+        "HOMO (eV)": -7.434,
+        "LUMO (eV)": 0.6,
+        "Dipole (Debye)": 5.038,
+        "Omega (1/Bohr)": 247.0
+    },
+    "17bdt12": {
+        "HOMO (eV)": -8.816,
+        "LUMO (eV)": -2.541,
+        "Dipole (Debye)": 1.945,
+        "Omega (1/Bohr)": 253.0
+    },
+    "17bdt13": {
+        "HOMO (eV)": -8.982000000000001,
+        "LUMO (eV)": -0.428,
+        "Dipole (Debye)": 4.703,
+        "Omega (1/Bohr)": 248.0
+    },
+    "17bdt14": {
+        "HOMO (eV)": -8.455,
+        "LUMO (eV)": 0.168,
+        "Dipole (Debye)": 3.523,
+        "Omega (1/Bohr)": 244.0
+    },
+    "17bdt15": {
+        "HOMO (eV)": -7.412999999999999,
+        "LUMO (eV)": 0.665,
+        "Dipole (Debye)": 0.9640000000000001,
+        "Omega (1/Bohr)": 246.0
+    },
+    "17bdt16": {
+        "HOMO (eV)": -8.649,
+        "LUMO (eV)": -2.559,
+        "Dipole (Debye)": 6.528,
+        "Omega (1/Bohr)": 245.0
+    },
+    "17bdt17": {
+        "HOMO (eV)": -9.062999999999999,
+        "LUMO (eV)": -0.415,
+        "Dipole (Debye)": 3.202,
+        "Omega (1/Bohr)": 263.0
+    },
+    "17bdt18": {
+        "HOMO (eV)": -7.742999999999999,
+        "LUMO (eV)": 0.155,
+        "Dipole (Debye)": 1.8419999999999999,
+        "Omega (1/Bohr)": 252.0
+    },
+    "17bdt19": {
+        "HOMO (eV)": -8.887,
+        "LUMO (eV)": 0.168,
+        "Dipole (Debye)": 2.404,
+        "Omega (1/Bohr)": 252.0
+    },
+    "17bdt20": {
+        "HOMO (eV)": -7.817,
+        "LUMO (eV)": 0.634,
+        "Dipole (Debye)": 6.702000000000001,
+        "Omega (1/Bohr)": 246.0
+    },
+    "17bdt21": {
+        "HOMO (eV)": -8.538,
+        "LUMO (eV)": -0.322,
+        "Dipole (Debye)": 2.911,
+        "Omega (1/Bohr)": 217.0
+    },
+    "17bdt22": {
+        "HOMO (eV)": -9.177,
+        "LUMO (eV)": -0.326,
+        "Dipole (Debye)": 4.769,
+        "Omega (1/Bohr)": 257.0
+    },
+    "17bdt23": {
+        "HOMO (eV)": -8.315,
+        "LUMO (eV)": 0.16699999999999998,
+        "Dipole (Debye)": 8.97,
+        "Omega (1/Bohr)": 245.0
+    },
+    "17bdt24": {
+        "HOMO (eV)": -9.806000000000001,
+        "LUMO (eV)": -0.89,
+        "Dipole (Debye)": 5.729,
+        "Omega (1/Bohr)": 259.0
+    },
+    "17bdt25": {
+        "HOMO (eV)": -8.427999999999999,
+        "LUMO (eV)": -0.24,
+        "Dipole (Debye)": 0.469,
+        "Omega (1/Bohr)": 261.0
+    },
+    "17bdt26": {
+        "HOMO (eV)": -9.224,
+        "LUMO (eV)": -0.275,
+        "Dipole (Debye)": 0.079,
+        "Omega (1/Bohr)": 256.0
+    },
+    "17bdt27": {
+        "HOMO (eV)": -8.329,
+        "LUMO (eV)": 0.222,
+        "Dipole (Debye)": 4.652,
+        "Omega (1/Bohr)": 243.0
+    },
+    "17bdt28": {
+        "HOMO (eV)": -10.267000000000001,
+        "LUMO (eV)": -1.66,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 286.0
+    },
+    "17bdt29": {
+        "HOMO (eV)": -9.075,
+        "LUMO (eV)": -1.757,
+        "Dipole (Debye)": 6.735,
+        "Omega (1/Bohr)": 238.0
+    },
+    "17bdt30": {
+        "HOMO (eV)": -10.22,
+        "LUMO (eV)": -2.219,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 272.0
+    },
+    "37bdt1": {
+        "HOMO (eV)": -7.497999999999999,
+        "LUMO (eV)": 0.237,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 235.0
+    },
+    "37bdt2": {
+        "HOMO (eV)": -7.98,
+        "LUMO (eV)": -0.122,
+        "Dipole (Debye)": 1.9780000000000002,
+        "Omega (1/Bohr)": 240.0
+    },
+    "37bdt3": {
+        "HOMO (eV)": -8.321,
+        "LUMO (eV)": -0.155,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 240.0
+    },
+    "37bdt4": {
+        "HOMO (eV)": -7.622999999999999,
+        "LUMO (eV)": -0.6,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 228.0
+    },
+    "37bdt5": {
+        "HOMO (eV)": -8.201,
+        "LUMO (eV)": -0.648,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 248.0
+    },
+    "37bdt6": {
+        "HOMO (eV)": -7.806,
+        "LUMO (eV)": 0.502,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 251.0
+    },
+    "37bdt7": {
+        "HOMO (eV)": -9.142000000000001,
+        "LUMO (eV)": -1.6,
+        "Dipole (Debye)": 0.001,
+        "Omega (1/Bohr)": 222.0
+    },
+    "37bdt8": {
+        "HOMO (eV)": -6.831,
+        "LUMO (eV)": 0.9359999999999999,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 240.0
+    },
+    "37bdt9": {
+        "HOMO (eV)": -8.546,
+        "LUMO (eV)": -1.788,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 237.0
+    },
+    "37bdt10": {
+        "HOMO (eV)": -8.22,
+        "LUMO (eV)": 0.076,
+        "Dipole (Debye)": 2.201,
+        "Omega (1/Bohr)": 253.0
+    },
+    "37bdt11": {
+        "HOMO (eV)": -7.351,
+        "LUMO (eV)": 0.57,
+        "Dipole (Debye)": 2.062,
+        "Omega (1/Bohr)": 247.0
+    },
+    "37bdt12": {
+        "HOMO (eV)": -8.613,
+        "LUMO (eV)": -0.128,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 235.0
+    },
+    "37bdt13": {
+        "HOMO (eV)": -8.162,
+        "LUMO (eV)": -0.802,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 222.0
+    },
+    "37bdt14": {
+        "HOMO (eV)": -9.609,
+        "LUMO (eV)": -1.673,
+        "Dipole (Debye)": 2.315,
+        "Omega (1/Bohr)": 264.0
+    },
+    "37bdt15": {
+        "HOMO (eV)": -8.76,
+        "LUMO (eV)": 0.086,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 258.0
+    },
+    "37bdt16": {
+        "HOMO (eV)": -7.846,
+        "LUMO (eV)": 0.617,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 256.0
+    },
+    "37bdt17": {
+        "HOMO (eV)": -9.003,
+        "LUMO (eV)": -0.612,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 263.0
+    },
+    "37bdt18": {
+        "HOMO (eV)": -7.683,
+        "LUMO (eV)": 0.04,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 253.0
+    },
+    "37bdt19": {
+        "HOMO (eV)": -7.632999999999999,
+        "LUMO (eV)": 0.038,
+        "Dipole (Debye)": 0.0,
+        "Omega (1/Bohr)": 257.0
+    },
+    "boant1": {
+        "HOMO (eV)": -8.175,
+        "LUMO (eV)": -0.444,
+        "Dipole (Debye)": 0.905,
+        "Omega (1/Bohr)": 223.0
+    },
+    "boant2": {
+        "HOMO (eV)": -6.9510000000000005,
+        "LUMO (eV)": 0.986,
+        "Dipole (Debye)": 1.768,
+        "Omega (1/Bohr)": 226.0
+    },
+    "boant3": {
+        "HOMO (eV)": -7.702000000000001,
+        "LUMO (eV)": -0.5579999999999999,
+        "Dipole (Debye)": 0.544,
+        "Omega (1/Bohr)": 215.0
+    },
+    "boant4": {
+        "HOMO (eV)": -7.4239999999999995,
+        "LUMO (eV)": -0.22399999999999998,
+        "Dipole (Debye)": 3.0189999999999997,
+        "Omega (1/Bohr)": 209.0
+    },
+    "boant5": {
+        "HOMO (eV)": -8.573,
+        "LUMO (eV)": -0.5529999999999999,
+        "Dipole (Debye)": 1.6159999999999999,
+        "Omega (1/Bohr)": 203.0
+    },
+    "boant6": {
+        "HOMO (eV)": -8.907,
+        "LUMO (eV)": -1.368,
+        "Dipole (Debye)": 1.778,
+        "Omega (1/Bohr)": 232.0
+    },
+    "boant7": {
+        "HOMO (eV)": -7.0360000000000005,
+        "LUMO (eV)": 0.797,
+        "Dipole (Debye)": 2.151,
+        "Omega (1/Bohr)": 218.0
+    },
+    "boant8": {
+        "HOMO (eV)": -6.422999999999999,
+        "LUMO (eV)": 1.045,
+        "Dipole (Debye)": 0.16399999999999998,
+        "Omega (1/Bohr)": 215.0
+    },
+    "boant9": {
+        "HOMO (eV)": -6.981,
+        "LUMO (eV)": 0.96,
+        "Dipole (Debye)": 0.757,
+        "Omega (1/Bohr)": 227.0
+    },
+    "boant10": {
+        "HOMO (eV)": -7.728,
+        "LUMO (eV)": -1.3559999999999999,
+        "Dipole (Debye)": 9.015,
+        "Omega (1/Bohr)": 202.0
+    },
+    "boant11": {
+        "HOMO (eV)": -7.694,
+        "LUMO (eV)": -0.311,
+        "Dipole (Debye)": 4.971,
+        "Omega (1/Bohr)": 225.0
+    }
+}
