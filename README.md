@@ -31,7 +31,7 @@ c. Cooling (cooling.mdp)
 This folder contains output of DFT optimized structure (nN) and calculated properties for building blocks and TADF emitters. Similarly, there are two subfolders: **01_Building_Blocks** and **02_TADF_emitters**, containing outputs of building blocks and TADF emitters. In these subfolders:
 ```
  a. .json files store the calculated properties
- b. .tar.gz contain optimized neutral ground state geometry (.xyz files)
+ b. .tar.gz contain optimized neutral ground state geometry (.xyz files, for TADF emitters, optimizations are performed with PCM implicit solvent with dielctric constant = 3 )
  c. VOTCA subfolder contains the output of DOS computations for electron (electron affinity) and hole (ionization energy).
-
+```
 
